@@ -1,0 +1,22 @@
+.nu__name {
+    color: #FB8F67;
+    font-size: 20px;
+}
+  
+.nu__product-column {
+    display: grid;
+    grid-template-columns: 170px 170px 170px 170px;
+    gap: 20px;
+}
+  
+.nu__product-name {
+    font-size: 1.5em;
+}
+  
+.nu__card {
+    border: none;
+}
+
+.nu__card-image {
+    cursor: pointer;
+}

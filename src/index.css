@@ -1,0 +1,34 @@
+/* /* :root {
+  --main-background-color: #F9FBF2;
+  --main-top-background-color: #FBFEF9;
+  --main-accent-color: #FB8F67;
+  --title-color: #1E2019;
+} */
+
+.button.is-primary {
+  background-color: var(--main-accent-color);
+}
+
+.button.is-primary:hover {
+  background-color: var(--title-color);
+} */
+
+.nu__name {
+  color: var(--main-accent-color);
+  font-family: 'Inconsolata', monospace;
+  font-size: 3em;
+}
+
+.nu__product-column {
+  display: grid;
+  grid-template-columns: 150px 150px 150px 150px;
+  gap: 20px;
+}
+
+.nu__product-name {
+  font-size: 2em;
+}
+
+.nu__card {
+  border: none;
+}
